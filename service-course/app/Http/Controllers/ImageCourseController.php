@@ -33,9 +33,9 @@ class ImageCourseController extends Controller
     }
     $imageCourse=ImageCourse::create($data);
     return response()->json([
-        'status'=>'error',
+        'status'=>'succsess',
         'data'=>$imageCourse
-    ],404);
+    ]);
     }
     public function destroy($id){
         $imageCourse=ImageCourse::find($id);
