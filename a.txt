@@ -1,3 +1,7 @@
 task 1=
 github: https://github.com/ika776/bwa_microservices/tree/master/service-course
 postman= https://documenter.getpostman.com/view/13882158/UyxjG6Ma
+
+task 2=
+github :  https://github.com/ika776/bwa_microservices/tree/b1869b2f111f3c660c74df4e7ee42377aabdc9e6
+postman :  https://documenter.getpostman.com/view/13882158/UyxjG6Ma

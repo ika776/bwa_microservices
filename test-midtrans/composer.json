@@ -1,0 +1,6 @@
+{
+    "name": "hp/test-midtrans",
+    "require": {
+        "midtrans/midtrans-php": "^2.5"
+    }
+}
