@@ -1,6 +1,7 @@
 {
-    "name": "hp/test-midtrans",
-    "require": {
-        "midtrans/midtrans-php": "^2.5"
-    }
+  "name": "hp/test-midtrans",
+  "require": {
+    "midtrans/midtrans-php": "^2.5",
+    "vlucas/phpdotenv": "^5.4"
+  }
 }

@@ -17,7 +17,7 @@ class CreateMyCourses extends Migration
             $table->id();
             $table->foreignId('course_id')->constrained('courses')->onDelete('cascade');
             $table->integer('user_id');
-            $table->unique('course_id','user_id');
+            $table->unique(['course_id','user_id']);
             $table->timestamps();
         });
     }
